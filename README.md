@@ -4,6 +4,7 @@ Automated Aavegotchi pet sitter bot for Base chain. Monitors and pets Aavegotchi
 
 ## =� Prerequisites
 
+- Call function `setPetOperatorForAll` using pet operator address and `true` as function arguments here https://basescan.org/address/0x683a56589203b186ea3a0d089665a90f023e9f7a#writeContract
 - Node.js 18+
 - Wallet with ETH on Base
 - Telegram bot (optional, for notifications)
@@ -26,7 +27,7 @@ Automated Aavegotchi pet sitter bot for Base chain. Monitors and pets Aavegotchi
 
 3. **Run with Docker Compose**:
    ```bash
-   docker-compose up -d
+   docker compose up -d
    ```
 
 ### Method 2: Direct Installation
@@ -98,13 +99,13 @@ npm start          # Start production server
 ### Using Docker Compose (Recommended)
 ```bash
 # Start the service
-docker-compose up -d
+docker compose up -d
 
 # View logs
-docker-compose logs -f
+docker compose logs -f
 
 # Stop the service
-docker-compose down
+docker compose down
 ```
 
 ### Using Docker directly
