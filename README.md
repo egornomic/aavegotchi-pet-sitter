@@ -15,7 +15,7 @@ Automated Aavegotchi pet sitter bot for Base chain. Monitors and pets Aavegotchi
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/egornomic/aavegotchi-pet-sitter.git
    cd aavegotchi-pet-sitter
    ```
 
